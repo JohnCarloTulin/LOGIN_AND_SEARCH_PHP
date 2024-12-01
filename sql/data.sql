@@ -17,5 +17,5 @@ CREATE TABLE bike_store_applicants (
 	nationality VARCHAR(255),
 	additional_skills VARCHAR(255),
 	date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-  created_by VARCHAR(100)
+  	created_by VARCHAR(100)
 );
